@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-white: #fff;
+    --color-blue: #222374;
+    --color-gray: #ccc;
+    --color-black: #000;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-media a {
+    padding: 10px;
+
+}
+
+#meet-our-space {
+    background-color: var(--color-blue);
+    padding-bottom: 20px;
+}
+
+#meet-our-space h2 {
+    color: var(--color-white);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 32px;
+}
+
+.space-card {
+    background-color: var(--color-gray);
+    border-radius: 8px;
+    color: var(--color-black);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.space-card h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.space-card p {
+    font-size: 14px;
+}
+
+#modalities {
+    background-color: var(--color-white);
+    padding-bottom: 40px;
+}
+
+#modalities h2 {
+    color: var(--color-red);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 32px;
+}
+
+.modalities-card {
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    color: var(--color-gray);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.modalities-card h3 {
+    font-size: 20px;
+    color: var(--color-white);
+    padding-bottom: 20px;
+}
+
+.modalities-card p {
+    font-size: 14px;
+}
+
+
+#footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: 14px;
+    padding: 60px;
+}
+
+.footer-container  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-social-container {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-container a {
+    padding-left: 10px;
+}
+
+.footer-container p {
+    padding-top: 30px;
+}
+ 
